@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Chord Quiz</title>
+    <link rel="stylesheet" href="./Styling.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1> Chord Notes Quiz</h1>
+
+      <!-- Player Input Section -->
+      <div id="playerInput" class="player-input">
+        <label for="numPlayers">How many players? (1-4): </label>
+        <input type="number" id="numPlayers" min="1" max="4" value="1" />
+        <div id="playerNames"></div>
+        <button id="startGameBtn">Start Game</button>
+      </div>
+
+      <!-- Quiz Section -->
+      <div id="quiz" class="hidden">
+        <h2 id="currentPlayer"></h2>
+        <h3 id="questionText"></h3>
+        <div id="options"></div>
+        <button id="submitAnswerBtn">Submit Answer</button>
+      </div>
+
+      <!-- Final Score Section -->
+      <div id="results" class="hidden">
+        <h2>Final Scores</h2>
+        <div id="scoreboard"></div>
+        <h3 id="winner"></h3>
+        <button id="playAgainBtn">Play Again</button>
+      </div>
+    </div>
+
+    <script src="./Game Logic.js"></script>
+  </body>
+</html>

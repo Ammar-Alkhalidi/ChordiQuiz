@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f75b5b;
+  background-image: url(https://img.freepik.com/premium-photo/guitar-minimalist-background_863013-182831.jpg?w=826);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #e6a630;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 60px rgba(38, 155, 28, 0.829);
+  text-align: center;
+  width: 90%;
+  max-width: 900px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.hidden {
+  display: none;
+}
+
+.player-input,
+.quiz,
+.results {
+  margin-top: 30px;
+}
+
+#options div {
+  margin-bottom: 30px;
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 60px rgb(197, 28, 28);
+  margin-left: 10px;
+}
+
+input[type="text"] {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 60px rgb(197, 28, 28);
+  display: block;
+  width: 100%;
+}
+
+#scoreboard {
+  margin-top: 20px;
+}
+
+#scoreboard div {
+  margin-bottom: 10px;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
