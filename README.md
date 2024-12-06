@@ -1,4 +1,8 @@
-chordQuiz
+# chordQuiz
+
+![Screnshoot](https://github.com/Ammar-Alkhalidi/CHORDS-GAME/blob/main/refrence.png)
+
+
 Guitar Chord Notes Quiz (Multiplayer) A fun and interactive command-line quiz game to test your knowledge of guitar chord notes. Supports up to 4 players with equal question distribution per player, immediate feedback, and a final score display with a winner announcement.
 
 Features Multiplayer Support: Up to 4 players can participate in a single game. Equal Question Distribution: Each player gets an equal number of questions based on the total available. Immediate Feedback: Players receive instant feedback on whether their answer is correct or incorrect, with color-coded messages. Final Score Display: After the quiz ends, each player's score is displayed, and the winner (or tie) is announced.
