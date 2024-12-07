@@ -48,3 +48,5 @@ chordQuiz.js: The main game script that handles the quiz logic, player input, an
 Adding more chord questions to the chordsQuiz array. Modifying the number of questions or rules for distributing questions among players. License This project is licensed under the MIT License. See the LICENSE file for more details.
 
 chordQuiz# CHORDS-GAME
+
+Developed by : https://github.com/Ammar-Alkhalidi
